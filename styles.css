@@ -1,0 +1,266 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+section h1, section h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.project-list, .companies {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.project, .companies img {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px 0;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+input, textarea, button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
+/* About Section */
+#about {
+    background: #343131;
+    color: #fff; /* Ensure the text is visible against the dark background */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Optional: centers the text */
+}
+/* General Reset */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* About Section */
+#about {
+    background: #343131;
+    color: #fff; /* Ensure the text is visible against the dark background */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Optional: centers the text */
+}
+/* Projects Section */
+#projects {
+    background: #A04747;
+    color: #fff; /* Ensure text is visible against the dark red background */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#projects h2 {
+    text-align: center;
+    color: #fff; /* Make sure the heading text matches the theme */
+}
+.project-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.project {
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: #333; /* Keep the text dark for the project boxes */
+}
+/* Skills Section */
+#skills {
+    background: #D8A25E;
+    color: #fff; /* Ensure text is visible against the golden-brown background */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#skills h2 {
+    text-align: center;
+    color: #fff; /* Ensure the heading matches the theme */
+}
+#skills ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+}
+#skills li {
+    background: #f4f4f4;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* Companies Section */
+#companies {
+    background: #EEDF7A;
+    color: #333; /* Use dark text for readability against the light yellow background */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align content */
+}
+#companies h2 {
+    color: #333; /* Heading matches the dark text */
+    margin-bottom: 15px;
+}
+.companies {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.companies img {
+    width: 100px; /* Set a consistent size for logos */
+    height: auto;
+    border-radius: 5px; /* Optional: adds a slight rounding to logos */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* Contact Me Section */
+#contact {
+    background: #973131;
+    color: #fff; /* Ensure text is visible against the dark red background */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align text and form */
+}
+#contact h2 {
+    color: #fff; /* Ensure the heading matches the theme */
+    margin-bottom: 15px;
+}
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+#contact input,
+#contact textarea,
+#contact button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+#contact button {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+#contact button:hover {
+    background: #555;
+}
+#profile-picture {
+    width: 200px; /* Reduced size */
+    height: 200px;
+    border-radius: 100%; /* Keeps the image circular */
+    object-fit: cover; /* Ensures the image fits well */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border: 3px solid #fff; /* Optional border */
+}
+@media (max-width: 768px) {
+    #profile-picture {
+        width: 80px; /* Smaller size for smaller screens */
+        height: 80px;
+    }
+}
